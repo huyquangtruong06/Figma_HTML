@@ -5,7 +5,7 @@ A modern, responsive education website interface built using **HTML** and **CSS*
 ## 🧰 Technologies Used
 
 - HTML5  
-- CSS3 (Flexbox, Grid, Media Queries)  
+- CSS3 
 - Google Fonts  
 
 ## 📁 Project Structure
@@ -14,10 +14,13 @@ A modern, responsive education website interface built using **HTML** and **CSS*
 project/
 │
 ├── index.html              # Main HTML file
-├── style.css               # Main CSS file
-└── assets/                 # Images, fonts, icons, etc.
-    └── fonts/
+|             
+└── assets/                 # CSS, img, icon, etc.
+    └── css/
+    |        └──reset.css  #  Reset CSS file
+    |        └──style.css   # Style CSS file
     └── img/
+    └── icon
 ```
 
 ## ✨ Features
