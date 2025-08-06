@@ -750,3 +750,53 @@ footer {
     font-size: 1.4rem;
     line-height: 1.86;
 }
+
+/* ============= RESPONSIVE ============= */
+@media (max-width: 768px) {
+
+    /* Hero section responsive */
+    .hero .body {
+        flex-direction: column;
+    }
+
+    .hero .hero-left,
+    .hero .hero-right {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .hero .hero-summary {
+        justify-content: center;
+    }
+
+    /* Popular courses section responsive */
+    .popular .courses-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .popular .courses-list .item {
+        width: 100%;
+    }
+
+    /* Blogs section responsive */
+    .blogs .blog-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .blogs .item {
+        width: 100%;
+    }
+
+    /* Footer section responsive */
+    .footer .row {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .footer .row .column {
+        width: 100% !important;
+    }
+}
